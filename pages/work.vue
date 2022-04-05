@@ -1,31 +1,21 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
-      <v-card class="logo py-4 d-flex justify-center">
-        <NuxtLogo />
-        <VuetifyLogo />
-      </v-card>
       <v-card>
         <v-card-title class="headline py-4 d-flex justify-center">
-          Anthony Buzzelli
+          Work Page
         </v-card-title>
         <v-card-text>
-          <p
-          class="headline d-flex justify-center"
-          >
-            Awesome Developer that Rocks
-          </p>
+          <p>Awesome Developer that Rocks</p>
         </v-card-text>
-        <v-card-actions
-          class="d-flex justify-center"
-        >
+        <v-card-actions>
+          <v-spacer />
           <v-btn
-            id="button"
             color="primary"
             nuxt
-            to="/work"
+            to="/"
           >
-            View Work
+            HOME
           </v-btn>
         </v-card-actions>
       </v-card>
@@ -35,6 +25,6 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'WorkPage'
 }
 </script>
