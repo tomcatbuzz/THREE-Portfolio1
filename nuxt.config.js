@@ -40,6 +40,17 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    ['@nuxtjs/google-fonts', {
+      families: {
+        Poppins: {
+          wght: [300, 400, 600]
+        },
+        Montserrat: {
+          wght: [0, 200, 0, 300, 0, 400, 1, 200, 1, 300],
+          ital: [100]
+        }
+      }
+    }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
